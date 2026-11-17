@@ -18,7 +18,7 @@ Styled with the exact clean aesthetic, typography, and theme system of [ourcrepe
 
 - **Automated Dual Stress-Testing**: Automatically fuzzed against naive brute-force solutions on randomized inputs to isolate minimal failing counterexamples.
 - **AI Edge-Case Hunter**: Pre-scans problem constraints and logic for off-by-one errors, 32-bit integer overflow, disconnected graphs, precision traps, and empty inputs.
-- **Big-O Constraint & TLE Guard**: Real-time evaluation of time/space complexity against problem time limits (e.g. verifying $O(N \log N)$ within 1.0s limit for $N \le 2 \times 10^5$).
+- **Big-O Constraint & TLE Guard**: Real-time evaluation of time/space complexity against problem time limits (e.g. verifying `O(N log N)` within 1.0s limit for `N ≤ 2 × 10⁵`).
 - **Contest Platform Parsing**: One-click URL import for Codeforces, LeetCode, and AtCoder problems and test case suites.
 - **Progressive Algorithmic Hints**: Multi-tier hinting (Observation &rarr; Data Structure &rarr; Pseudo-code) that guides without spoiling.
 - **100% Offline & Private**: Zero code telemetry. Solutions and contest strategies run locally on your machine with sub-millisecond latency.
