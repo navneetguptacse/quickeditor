@@ -54,22 +54,6 @@ Styled with the exact clean aesthetic, typography, and theme system of [ourcrepe
   - Problem presets (Maximum Subarray XOR, Two Pointers & Slimes, Shortest Path with Tolls).
   - Simulated test execution, live 100-run dual stress-testing bar, progressive hint revealer, and edge-case injector.
 - **Zero Dependencies**: Pure HTML, CSS, and vanilla JS — zero build steps or heavy node frameworks.
-
----
-
-## Repository Structure
-
-```text
-quickeditor/
-├── CNAME             # Custom domain configuration (quickeditor.ourcrepe.live)
-├── index.html        # Main product landing page & interactive sandbox
-├── favicon.ico       # Multi-resolution favicon resource
-├── README.md         # Documentation & product overview
-└── images/
-    ├── logo.png      # Official brand logo
-    └── logo.ico      # Multi-resolution icon for browser tabs
-```
-
 ---
 
 ## Local Development & Preview
