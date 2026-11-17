@@ -1,7 +1,7 @@
 # QuickEditor — Official Product Landing Page
 
 [![ourcrepe](https://img.shields.io/badge/ecosystem-ourcrepe-3178c6?style=flat)](https://ourcrepe.live)
-[![QuickEditor](https://img.shields.io/badge/QuickEditor-Live%20Preview-3178c6?style=flat&logo=visualstudiocode&logoColor=white)](https://quickeditor.ourcrepe.live)
+[![QuickEditor](https://img.shields.io/badge/QuickEditor-Coming%20Soon-d97706?style=flat&logo=visualstudiocode&logoColor=white)](https://quickeditor.ourcrepe.live)
 [![QuickRunner](https://img.shields.io/badge/QuickRunner-Live-059669?style=flat)](https://quickrunner.ourcrepe.live/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0f2744?style=flat)](https://opensource.org/licenses/MIT)
 [![Supported Platforms](https://img.shields.io/badge/platforms-Codeforces%20%7C%20LeetCode%20%7C%20AtCoder-4a90e2?style=flat)](https://quickeditor.ourcrepe.live)
@@ -31,7 +31,7 @@ Styled with the exact clean aesthetic, typography, and theme system of [ourcrepe
 | :--- | :--- | :--- | :--- |
 | **ourcrepe** | Live Hub | [ourcrepe.live](https://ourcrepe.live) | Parent developer tooling ecosystem for minimalist, high-speed utilities. |
 | **QuickRunner** | Live | [quickrunner.ourcrepe.live](https://quickrunner.ourcrepe.live/) | All-in-one code runner for VS Code & terminal across 60+ languages with zero setup. |
-| **QuickEditor** | Live Preview / Early Access | [quickeditor.ourcrepe.live](https://quickeditor.ourcrepe.live) | AI-powered code editor engineered for competitive coders featuring automated stress-testing and edge-case generation. |
+| **QuickEditor** | Coming Soon (Active Dev) | [quickeditor.ourcrepe.live](https://quickeditor.ourcrepe.live) | AI-powered code editor engineered for competitive coders featuring automated stress-testing and edge-case generation. |
 
 ---
 

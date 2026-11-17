@@ -1187,6 +1187,7 @@
                     <img src="images/logo.png" alt="ourcrepe logo" />
                     <span>QuickEditor</span>
                     <span class="brand-pill">ourcrepe</span>
+                    <span class="badge up" style="margin-bottom: 0; padding: 2px 9px; font-size: 11px;"><span class="badge-dot"></span> Coming Soon</span>
                 </a>
                 <div class="links">
                     <a href="#playground">Playground</a>
@@ -1204,10 +1205,15 @@
 
             <header class="hero">
                 <img class="logo" src="images/logo.png" alt="QuickEditor logo" />
+                <div>
+                    <span class="badge up" style="font-size: 13px; padding: 6px 14px; margin-bottom: 8px;">
+                        <span class="badge-dot"></span> Coming Soon &bull; In Active Development
+                    </span>
+                </div>
                 <span class="script">Simple, fast, contest-first</span>
                 <h1>AI-powered editor for <em>speed &amp; algorithms</em></h1>
                 <p class="lead">
-                    Engineered for competitive coders. Automate brute-force stress-testing, uncover subtle edge cases, and pass contest constraints with zero telemetry and sub-millisecond local speed.
+                    QuickEditor is currently under active development. Test-drive the interactive playground below, explore upcoming features, and request early access to the first preview release.
                 </p>
                 <div class="cta">
                     <a class="btn p" href="#playground">
@@ -1215,7 +1221,7 @@
                         <i class="fa-solid fa-play" style="font-size: 13px;"></i>
                     </a>
                     <button class="btn s" onclick="openModal('earlyAccessModal')">
-                        <span>Join Early Access</span>
+                        <span>Join Early Access Waitlist</span>
                         <i class="fa-solid fa-sparkles" style="font-size: 13px;"></i>
                     </button>
                     <a class="btn s" href="https://ourcrepe.live" target="_blank" rel="noopener noreferrer">
@@ -1224,6 +1230,8 @@
                     </a>
                 </div>
                 <div class="keys">
+                    <span><kbd>Coming Soon</kbd> Desktop &amp; CLI</span>
+                    <span>&bull;</span>
                     <span><kbd>Ctrl</kbd> + <kbd>Enter</kbd> Run Tests</span>
                     <span>&bull;</span>
                     <span><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd> Stress Test</span>
@@ -1649,17 +1657,23 @@
         <!-- Final Call to Action -->
         <section class="alt final">
             <div class="wrap">
+                <span class="badge up" style="font-size: 13px; padding: 5px 12px; margin-bottom: 12px;">
+                    <span class="badge-dot"></span> Coming Soon
+                </span>
                 <span class="script">Less debugging, more rating.</span>
-                <h2 style="font-size: clamp(26px, 4.5vw, 40px); margin: 8px 0 24px">
+                <h2 style="font-size: clamp(26px, 4.5vw, 40px); margin: 8px 0 18px">
                     Stop losing rating to hidden edge cases.
                 </h2>
+                <p style="color: var(--mut); max-width: 520px; margin: 0 auto 24px; font-size: 16px;">
+                    QuickEditor is coming soon. Test out the browser playground today and reserve your spot on the early access waitlist.
+                </p>
                 <div class="cta">
                     <a class="btn p" href="#playground">
                         <span>Try Web Playground</span>
                         <i class="fa-solid fa-play" style="font-size: 13px;"></i>
                     </a>
                     <button class="btn s" onclick="openModal('earlyAccessModal')">
-                        <span>Request Early Access</span>
+                        <span>Join Early Access Waitlist</span>
                         <i class="fa-solid fa-envelope" style="font-size: 13px;"></i>
                     </button>
                 </div>
@@ -1679,8 +1693,8 @@
                         <p class="footer-desc">
                             AI-augmented competitive coding editor engineered for extreme speed, automated stress-testing, and zero contest surprises.
                         </p>
-                        <div class="footer-status">
-                            <span class="status-dot"></span> All systems operational
+                        <div class="footer-status" style="border-color: var(--badge-up);">
+                            <span class="status-dot" style="background: #f59e0b; box-shadow: 0 0 8px #f59e0b80;"></span> Coming Soon &bull; In Active Development
                         </div>
                     </div>
 
@@ -1918,8 +1932,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
             // Language & Feature Ticker Items
             var tickerItems = [
-                "QuickEditor",
+                "Coming Soon...",
+                "QuickEditor (AI)",
+                "In Active Development",
                 "ourcrepe.live",
+                "Early Access Waitlist",
                 "QuickRunner",
                 "Codeforces Import",
                 "LeetCode Contests",
@@ -1931,8 +1948,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                 "Progressive Hinting",
                 "Visual Diff Inspector",
                 "Fast I/O C++20",
-                "Zero Telemetry",
-                "Offline-First"
+                "Zero Telemetry"
             ];
             var tickerHtml = tickerItems
                 .map(function (x) {
